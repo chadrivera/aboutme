@@ -9,17 +9,30 @@
  * compiled file so the styles you add here take precedence over styles defined in any styles
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
- *
  *= require bootstrap
  *= require_self
  */
-
-
- h1  {
-   color: red;
-   font-family: sans-serif;
+ html {
+   background: url(/images/blueangels.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
  }
- li.relative a {
-   color: green;
-   font-family: sans-serif;
+ h3 a {
+   color : #FFFFCC;
+ }
+ h3.text-muted {
+   background: rgba(255,255,255,0);
+ }
+
+ a {
+   color : #006600;
+ }
+
+
+
+ .jumbotron {
+   background: rgba(215, 44, 44, 0);
+
  }
